@@ -8,3 +8,5 @@ The read_sbc_data.r is a function that read in the data index csv file and locat
 figure_long_term_studies.R is R script that plot all the time series figures shown on SBC website: https://sbclter.msi.ucsb.edu/data/visuals/tsvisual/. 
 
 We want to provide this code to students/researchers who would like to reproduce the graphs and modify them to fit research purposes. 
+
+To implement, please open the figure_long_term_studies.R script and run the section that you need for producing the figures. 
