@@ -20,7 +20,7 @@ line_site <- function(usedate=0,points=0,df,xin,yin, colin=NULL, legendname=NULL
     labs(x="",y=ylablein, title=titlein) +
     theme(axis.text.x = element_text(size=14),
           axis.text.y = element_text(size=14),
-          panel.background =  element_rect(fill = "white", color = "black", size = 1),
+          panel.background =  element_rect(fill = "white", color = "black", linewidth = 1),
           panel.grid.minor.y = element_line(color = "gray90",linewidth = 0.1),
           panel.grid.major.y = element_line(color = "gray90",linewidth = 0.1),
           panel.grid.minor.x = element_line(color = "gray90",linewidth = 0.1),
